@@ -51,5 +51,38 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+# Debug information files
 *.dwo
+
+# =========================================================================
+# Custom Language & IDE Additions (.cpp & .m)
+# =========================================================================
+
+# General Build and Compiler Output Directories
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+.build/
+out/
+
+# Visual Studio Code Workspace settings
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains IDE project files
+.idea/
+cmake-build-*/
+
+# Xcode / Apple Development (If using .m for Objective-C)
+.DS_Store
+DerivedData/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcuserstate
+
+# MATLAB Configuration (If using .m for MATLAB scripts)
+.matlab/
+*.asv
+*.mat
+*.mex*
