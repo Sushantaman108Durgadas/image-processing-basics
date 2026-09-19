@@ -1,0 +1,6 @@
+*.c linguist-language=C
+*.cpp linguist-language=C++
+*.m linguist-language=MATLAB
+
+examples/** linguist-detectable=true
+library/** linguist-detectable=true
